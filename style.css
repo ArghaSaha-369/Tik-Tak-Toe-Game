@@ -34,4 +34,55 @@ html{
     width: 20vmin;
     border: none;
     border-radius: 10px;
+    font-size: 10vmin;
+    color: rgba(34, 34, 199, 0.897);
+    font-weight: 600;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+#restart{
+    font-size: 1em;
+    font-weight: 600;
+    margin: 1.5em auto 0 auto;
+    padding: 1em;
+    background: linear-gradient(rgb(137, 58, 211), rgb(137, 228, 19));
+    border-radius: 8px;
+    border: none;
+    color: black;
+    position: relative;
+    display: block;
+}
+
+.popup {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 10vmin;
+}
+
+#new-game{
+    font-size: 0.5em;
+    padding: 1em;
+    background: linear-gradient(rgb(137, 58, 211), rgb(137, 228, 19));
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+#notify {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+.popup.hide{
+    display: none;
 }
